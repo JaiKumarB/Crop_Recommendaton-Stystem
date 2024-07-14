@@ -51,5 +51,5 @@ The system is trained on an Indian Crop Recommendation Dataset containing inform
 
 ## Contact
 For any inquiries or support, please contact:
-- **Name:** [Jai Kumar B]
-- **Email:** [jaikumarb031@gmail.com.]
+- **Name:** Jai Kumar B
+- **Email:** jaikumarb031@gmail.com.
