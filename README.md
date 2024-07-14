@@ -1,7 +1,9 @@
 # Crop Recommendation System
 
 ## Description
-The Crop Recommendation System is designed to assist farmers in making informed decisions about suitable crops to cultivate based on various environmental and soil conditions.
+The Crop Recommendation System utilizes the Random Forest Algorithm to recommend suitable crops based on soil and weather conditions. It was trained on an Indian Crop Recommendation Dataset and provides recommendations based on inputs such as N, P, K, pH values, temperature, humidity, rainfall, and regional location.
+
+This project is in partial fulfillment of the Final Project on MAN206 Predictive Modelling and Machine Learning.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,46 +12,44 @@ The Crop Recommendation System is designed to assist farmers in making informed 
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Usage](#usage)
-- [Contact](#contact)
+- [Contributing](#contributing)
 
 ## Introduction
-The Crop Recommendation System aims to provide personalized crop suggestions by analyzing soil and climate data. It leverages machine learning algorithms to predict the best crops for specific agricultural conditions.
+This simple crop recommender system was trained using Random Forest Algorithm in giving recommendations to farmers the best and suitable crop based on an Indian Crop Recommendation Dataset. 
+By inputing N, P, K, and pH values based on soil conditions, weather conditions such as temperature, humidity, and rainfall, and regional location, the system can recommend what the best and most suitable crop to plant.
 
 ## Features
-- User-friendly interface for inputting soil and climate data
-- Machine learning model integration for crop prediction
-- Recommendation display based on prediction results
-- Scalable architecture to handle large datasets
+- Predictive model trained with Random Forest Algorithm
+- Input fields for soil nutrients (N, P, K, pH), weather conditions (temperature, humidity, rainfall), and regional location
+- Recommendation output based on predicted crop suitability
 
 ## Technologies Used
 - **Python**
 - **Scikit-learn**
 - **Pandas**
-- **Streamlit**
-- **HTML/CSS**
-- **JavaScript**
+- **Streamlit** (for web interface)
+-
 
 ## Dataset
-The project uses a dataset containing information on soil types, climate patterns, and historical crop yields. This data is crucial for training the machine learning models used in crop prediction.
+The system is trained on an Indian Crop Recommendation Dataset containing information on soil properties, climate patterns, and crop yields. This dataset is essential for training and evaluating the recommendation model.
 
 ## Methodology
-The Crop Recommendation System employs the following methodology:
-- Data preprocessing to clean and prepare the dataset
-- Feature engineering to extract relevant features for model training
-- Model selection and evaluation to determine the best-performing algorithm
-- Integration of the trained model into a web application for user interaction
+1. **Data Preprocessing:** Cleaning and preparing the dataset for model training.
+2. **Model Training:** Using Random Forest Algorithm to build a predictive model based on input features.
+3. **Integration:** Deploying the model into a Flask-based web application for user interaction.
 
 ## Usage
 1. **Input Data:**
-   Users input soil characteristics and climatic conditions via the web interface.
+   Users enter soil nutrient levels, weather conditions, and location details via the web interface.
    
 2. **Prediction:**
-   The system utilizes machine learning algorithms to predict suitable crops based on the provided data.
+   The system predicts suitable crops based on the provided inputs.
    
 3. **Recommendation:**
-   Recommended crops are displayed to the user along with relevant cultivation advice.
+   Recommended crops are displayed to the user along with cultivation advice.
+
 
 ## Contact
 For any inquiries or support, please contact:
 - **Name:** [Jai Kumar B]
-- **Email:** [jaikumarb031@gmail.com@example.com]
+- **Email:** [jaikumarb031@gmail.com.]
